@@ -337,18 +337,30 @@
 
     <TextView
         android:id="@+id/resultTextView"
-        android:layout_width="363dp"
-        android:layout_height="196dp"
+        android:layout_width="372dp"
+        android:layout_height="76dp"
         android:gravity="center"
         android:text="0"
         android:textAlignment="textEnd"
         android:textColor="#FFFFFF"
         android:textColorHint="#FFFFFF"
         android:textSize="50sp"
-        app:layout_constraintBottom_toTopOf="@+id/guideline5"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="HardcodedText,RtlCompat" />
+        tools:ignore="HardcodedText,RtlCompat"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="120dp" />
+
+    <TextView
+        android:id="@+id/result2TextView"
+        android:layout_width="372dp"
+        android:layout_height="76dp"
+        android:gravity="center"
+        android:text="0"
+        android:textAlignment="textEnd"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textSize="50sp"
+        tools:ignore="HardcodedText,RtlCompat"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="25dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
